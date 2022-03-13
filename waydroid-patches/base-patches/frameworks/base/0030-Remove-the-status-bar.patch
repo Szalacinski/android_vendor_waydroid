@@ -1,0 +1,34 @@
+From 680159ad5e97987a6da9cc2f9933a4ac30db2f04 Mon Sep 17 00:00:00 2001
+From: Caleb Szalacinski <opensource@skiboy.net>
+Date: Sat, 12 Mar 2022 18:39:59 -0600
+Subject: [PATCH] Remove the status bar
+
+---
+ packages/SystemUI/res/values/config.xml | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/packages/SystemUI/res/values/config.xml b/packages/SystemUI/res/values/config.xml
+index c2189a30f237..b87b6d489834 100644
+--- a/packages/SystemUI/res/values/config.xml
++++ b/packages/SystemUI/res/values/config.xml
+@@ -282,7 +282,7 @@
+     <!-- SystemUI Services: The classes of the stuff to start. -->
+     <string-array name="config_systemUIServiceComponents" translatable="false">
+         <item>com.android.systemui.util.NotificationChannels</item>
+-        <item>com.android.systemui.statusbar.CommandQueue$CommandQueueStart</item>
++        <!-- <item>com.android.systemui.statusbar.CommandQueue$CommandQueueStart</item> -->
+         <item>com.android.systemui.keyguard.KeyguardViewMediator</item>
+         <item>com.android.systemui.recents.Recents</item>
+         <item>com.android.systemui.volume.VolumeUI</item>
+@@ -302,7 +302,7 @@
+         <item>com.android.systemui.biometrics.BiometricDialogImpl</item>
+         <item>com.android.systemui.SliceBroadcastRelayHandler</item>
+         <item>com.android.systemui.SizeCompatModeActivityController</item>
+-        <item>com.android.systemui.statusbar.notification.InstantAppNotifier</item>
++        <!-- <item>com.android.systemui.statusbar.notification.InstantAppNotifier</item> -->
+         <item>com.android.systemui.theme.ThemeOverlayController</item>
+     </string-array>
+ 
+-- 
+2.25.1
+

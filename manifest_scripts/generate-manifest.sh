@@ -17,7 +17,7 @@
 top_dir=`pwd`
 LOCALDIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
 loc_man="${top_dir}/.repo/local_manifests"
-manifests_url="https://raw.githubusercontent.com/waydroid/android_vendor_waydroid/lineage-17.1/manifest_scripts/manifests"
+manifests_url="https://raw.githubusercontent.com/Szalacinski/android_vendor_waydroid/lineage-17.1/manifest_scripts/manifests"
 manifests_path="${LOCALDIR}/manifests"
 
 #setup colors
@@ -66,6 +66,7 @@ else
     wget "${manifests_url}/00-remotes.xml" -O "${loc_man}/00-remotes.xml"
     wget "${manifests_url}/01-removes.xml" -O "${loc_man}/01-removes.xml"
     wget "${manifests_url}/02-waydroid.xml" -O "${loc_man}/02-waydroid.xml"
+    wget "${manifests_url}/03-kiosk.xml" -O "${loc_man}/03-kiosk.xml"
 fi
 
 echo -e ${reset}""${reset}

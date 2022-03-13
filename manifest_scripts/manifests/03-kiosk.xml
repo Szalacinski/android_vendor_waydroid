@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Remove apps for kiosk -->
+  <!-- <remove-project name="LineageOS/android_packages_apps_Contacts" /> -->
+  <!-- <remove-project name="LineageOS/android_packages_apps_Dialer" /> -->
+  <!-- <remove-project name="LineageOS/android_packages_apps_Email" /> -->
+  <!-- <remove-project name="LineageOS/android_packages_apps_EmergencyInfo" /> -->
+  <!-- <remove-project name="LineageOS/android_packages_apps_Messaging" /> -->
+  <!-- <remove-project name="LineageOS/android_packages_apps_PackageInstaller" /> -->
+  <!-- <remove-project name="LineageOS/android_packages_apps_Camera2" /> -->
+  <!-- <remove-project name="LineageOS/android_packages_apps_Eleven" /> -->
+  <!-- <remove-project name="LineageOS/android_packages_apps_Recorder" /> -->
+  <!-- <remove-project name="LineageOS/android_packages_apps_Seedvault" /> -->
+  <!-- <remove-project name="LineageOS/android_packages_apps_Jelly" /> -->
+  <!-- <remove-project name="LineageOS/android_packages_apps_Trebuchet" /> -->
+  <!-- <remove-project name="LineageOS/android_packages_apps_Gallery2" /> -->
+  
+  <!-- Add apps for kiosk -->
+  <!-- Home Assistant -->
+  <!-- <project path="packages/apps/HomeAssistant" name="home-assistant/android" remote="ghub" revision="refs/tags/2022.2.1" /> -->
+  <!-- Gelli -->
+  <!-- <project path="packages/apps/Gelli" name="dkanada/gelli" remote="ghub" revision="refs/tags/v1.3.2" /> -->
+  <!-- Pie Launcher -->
+  <!-- <project path="packages/apps/PieLauncher" name ="markusfisch/PieLauncher" remote="ghub" revision="refs/tags/1.13.0" /> -->
+</manifest>
